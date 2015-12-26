@@ -1,0 +1,13 @@
+Source: firefox-addon-arc-darker-theme
+Section: utils
+Priority: extra
+Maintainer: Rik Shaw <rikshaw76@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.5
+Homepage: https://github.com/horst3180/arc-firefox-theme
+
+Package: firefox-addon-arc-darker-theme
+Architecture: all
+Depends: firefox, ${shlibs:Depends}, ${misc:Depends}
+Description: Arc-Darker Firefox Theme
+ Arc-Darker Firefox theme packaged for Ubuntu PPA
